@@ -59,13 +59,13 @@ class TicTacToe
     input = gets.chomp
     index = input_to_index(input)
     player = current_player
-    if valid_move?(index)
-      move(index, player)
-      display_board
-    else
-      "Invalid"
-      turn
-    end
+      if valid_move?(index)
+        move(index, player)
+        display_board
+      else
+        "Invalid"
+        self.turn
+      end
   end
 
 end
