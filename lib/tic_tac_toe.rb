@@ -41,6 +41,7 @@ class TicTacToe
   end
 
   def turn_count
+    binding.pry
 
   end
   # binding.pry
