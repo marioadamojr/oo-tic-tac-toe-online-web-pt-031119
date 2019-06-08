@@ -48,7 +48,7 @@ class TicTacToe
 
   def current_player
     if self.turn_count.even?
-      cp = "X"
+      "X"
     else
       "O"
     end
