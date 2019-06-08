@@ -48,7 +48,7 @@ class TicTacToe
 
   def current_player
     if self.turn_count.odd?
-      self = "X"
+      cp = "X"
     else
       "O"
     end
