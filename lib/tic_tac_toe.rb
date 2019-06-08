@@ -54,7 +54,16 @@ class TicTacToe
     end
   end
 
-  def turn
+  def turn(input)
+    input = gets.chomp
+    index = input_to_index(input)
+    player = current_player
+    if valid_move?(index, player)
+      move(index, player)
+      display_board
+    else
+      turn
+    end
   end
 
 end
