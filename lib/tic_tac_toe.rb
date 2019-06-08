@@ -63,7 +63,8 @@ class TicTacToe
       move(index, player)
       display_board
     else
-      turn
+      puts "Enter 1-9:"
+      input = gets.chomp
     end
   end
 
