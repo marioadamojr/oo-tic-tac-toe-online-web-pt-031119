@@ -63,8 +63,7 @@ class TicTacToe
         move(index, player)
         display_board
       else
-        "Invalid"
-        self.turn
+
       end
   end
 
