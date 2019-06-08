@@ -53,5 +53,8 @@ class TicTacToe
       "O"
     end
   end
-  # binding.pry
+
+  def turn
+  end
+
 end
