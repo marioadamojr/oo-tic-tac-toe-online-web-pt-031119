@@ -45,5 +45,8 @@ class TicTacToe
     tc = @board.count("X") + @board.count("O")
     tc
   end
+
+  def current_player
+  end
   # binding.pry
 end
